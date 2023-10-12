@@ -1,0 +1,33 @@
+.wrapper{
+  padding: 2rem;
+}
+.container{
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: top;
+  z-index:-1;
+}
+.settings{
+  display:flex;
+  margin-right:20px;
+  justify-content:flex-start;
+  // align-items:center;
+  flex-direction:column;
+  button{
+    margin-top:10px;
+  }
+}
+.view-box{
+  width:100%;
+}
+.red-btn{
+  background-color: #ff0000 !important;
+  color:#fff !important;
+}
+.generated-box{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+
+}

@@ -1,0 +1,16 @@
+.text-box{
+  border-radius: 8px;
+  border: 1px solid #888;
+  padding: 8px;
+  //animation
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    border: 1px solid #aaa;
+  }
+  &:focus{
+    border: 1px solid #aaa;
+    box-shadow: 0 0 5px #aaa;
+  }
+  color: #ddd
+}
+
