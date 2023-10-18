@@ -1,4 +1,5 @@
-import { useParams, useRef } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import { useRef } from 'react';
 import { getInformationModel } from '~/api';
 import className from 'classnames/bind';
 import styles from './Model.module.scss';
