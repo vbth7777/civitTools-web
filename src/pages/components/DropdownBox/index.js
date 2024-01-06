@@ -8,9 +8,10 @@ function DropdownBox({ options, onChange }) {
   const [selected, setSelected] = useState(options[0]);
   const [active, setActive] = useState(false);
   const handleChange = (option) => {
+    setActive(false);
+    if (selected === option) return;
     onChange(option)
     setSelected(option);
-    setActive(false);
   }
   return (
     <div className={cx('wrapper')}>
