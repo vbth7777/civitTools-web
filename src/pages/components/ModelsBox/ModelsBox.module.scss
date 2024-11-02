@@ -1,0 +1,30 @@
+.wrapper{
+  padding:14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.models-box{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.model-card{
+  position:relative;
+  margin: 5px;
+}
+.close-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 6px 8px;
+  color:#000;
+  z-index:1;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    padding: 8px 10px;
+  }
+}

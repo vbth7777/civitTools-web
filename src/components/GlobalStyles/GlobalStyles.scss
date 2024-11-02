@@ -1,0 +1,74 @@
+@import 'normalize.css';
+:root{
+  --primary-color: #36d;
+  --card-color: #0047ab20;
+  --black-color: #333;
+  --line-color: rgba(255, 255, 255, 0.2);
+}
+*{
+  outline:none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  background-color: #222;
+  color:#fff;
+  text-rendering: optimizeSpeed;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: inherit;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul{
+  list-style: none;
+}
+input{
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.btn{
+  padding:10px;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: #fff;
+  transition: all 0.1s ease-in-out;
+  font-weight: 600;
+  &:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+  }
+}
+//style scroll bar to dark
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #333;
+}
+::-webkit-scrollbar-thumb {
+  background: #222;
+  cursor: pointer;
+}
